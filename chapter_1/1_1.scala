@@ -1,3 +1,3 @@
-object ExOneOne extends App{
-    println("something")
+object ExOneOne extends App {
+  println("something")
 }

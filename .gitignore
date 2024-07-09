@@ -3,6 +3,7 @@ target/
 .bloop/
 .vscode/
 .metals/
+.scala-build/
 
 # CMake
 cmake-build-*/
