@@ -15,6 +15,6 @@ Side effects (examples):
 
 
 // FINISHED HERE:
-// Listing 1.2 Adding a Payments object
+// Listing 1.1.2 A functional solution: Removing the side effects
 
 }
