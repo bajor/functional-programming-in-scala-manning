@@ -15,6 +15,7 @@ Side effects (examples):
 
 
 // FINISHED HERE:
-// Listing 1.1.2 A functional solution: Removing the side effects
+// Listing 1.3
+
 
 }
