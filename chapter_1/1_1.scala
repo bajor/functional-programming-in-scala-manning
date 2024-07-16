@@ -15,7 +15,6 @@ Side effects (examples):
 
 
 // FINISHED HERE:
-// Listing 1.3
-
+// 1.2 Exactly what is a (pure) function?
 
 }
