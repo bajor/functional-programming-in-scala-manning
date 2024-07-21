@@ -60,4 +60,7 @@ object ExOneOne extends App {
   // 1.3 Referential transparency, purity, and the substitution model
 
 
+
+
+
 }
