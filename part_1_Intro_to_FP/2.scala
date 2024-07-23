@@ -24,14 +24,26 @@ object MyProgram:
   def abs(n: Int): Int =
     if n < 0 then -n
     else n
+    // method simply returns the value of its right-hand side,
+    // so we don’t need a return keyword.
 
   // private - can't be called from outside MyProgram
   private def formatAbs(x: Int) =
+    // val keyword is an immutable variable.
+    // Scala supports declaring mutable variables with the var
+    // keyword, though val is used more frequently.
     val msg = "The absolute value of %d is %d"
+
     msg.format(x, abs(x))
 
+  // printAbs method is an outer shell that calls into our purely
+  // functional core and prints the answer to the console.
+  // We’ll sometimes call such methods procedures (or impure functions),
+  // rather than functions, to emphasize the fact that they have
+  // side effects.
   @main def printAbs: Unit =
     println(formatAbs(-42))
+  // Unit serves a similar purpose to void in programming languages like C and Java.
 
 // Finished:
-// Listing 2.1 A simple Scala program
+// 2.1.1 Running our program
