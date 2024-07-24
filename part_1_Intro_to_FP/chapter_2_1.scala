@@ -46,4 +46,4 @@ object MyProgram:
   // Unit serves a similar purpose to void in programming languages like C and Java.
 
 // Finished:
-// 2.1.1 Running our program
+// 2.2 Objects and namespaces
