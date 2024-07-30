@@ -49,16 +49,4 @@ object MyProgram:
 // 2.2 Objects and namespaces
 
 
-// driver wykona url - 
-// link w logach jesli mialby to byc monolit 
-// w tym samym sparku zapisac gdzies
-// jako jeden job to zrobic 
-// bezpisredni podac http linki to sparka - (datafreame z adresami)
-// popartycjonowac jesli jest potrzebz zrownolegnelani tego
-// connection pool - robic przez to polaczenie https ktore isnitjeje (przez to samo tcp) 
-// jesli http2 to chunkami to robic
-// jako pierwsza iteracja monolit potem  
-
-// jednen job - urderzenie do api i zapisanei resultatu z urlem 
-// drugi job - cala reszta tylko zeby retriaowal od bronze to silver nie od pobierania urli od nowa
 
