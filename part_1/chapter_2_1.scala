@@ -20,7 +20,7 @@ Scala has no equivalent to Java’s static keyword,
 and an object is often used in Scala where you might use a class with
 static members in Java
  */
-object MyProgram:
+package object MyProgram:
   def abs(n: Int): Int =
     if n < 0 then -n
     else n
@@ -44,9 +44,3 @@ object MyProgram:
   @main def printAbs: Unit =
     println(formatAbs(-42))
   // Unit serves a similar purpose to void in programming languages like C and Java.
-
-// Finished:
-// 2.2 Objects and namespaces
-
-
-
